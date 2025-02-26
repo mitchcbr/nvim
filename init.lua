@@ -13,7 +13,7 @@ require("toggleterm").setup({
   -- direction = 'vertical',
   direction = 'float',
   close_on_exit = true, -- close the terminal window when the process exits
-  shell = vim.o.shell,
+  shell = "/bin/bash",
   auto_scroll = true,   -- automatically scroll to the bottom on terminal output
   winbar = {
     enabled = false,
